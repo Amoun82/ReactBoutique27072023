@@ -1,0 +1,14 @@
+.cadre{
+    border: 1px solid black;
+    border-radius: 10%;
+    color: blue;
+    margin: 10px;
+}
+
+.img{
+    max-width: 500px;
+}
+
+.imgDetail{
+    max-width: 100%;
+}
