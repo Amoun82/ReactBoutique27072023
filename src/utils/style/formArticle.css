@@ -9,3 +9,8 @@
 .justify-content-start{
     justify-content: start;
 }
+
+.margin {
+    margin-top: 10px ;
+    margin-bottom: 10px ;
+}

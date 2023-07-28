@@ -38,10 +38,15 @@ const GetArticles = () => {
                             <img className='img' src={article.picture} alt="" />
                         </figure>
 
-                        <Link to={{ pathname: `detail-article/${article.id}` }}
-                            state={{ titre: 'page article 🎁' }}
+                        <Link className='margin-x' to={{ pathname: `detail-article/${article.id}` }}
+                            state={{ title: 'page article 🎁' }}
                         >
                             Article
+                        </Link>
+                        <Link className='margin-x' to={{ pathname: `modifier-article/${article.id}` }}
+                            state={{ title: 'Modifier article', category: 'truc' }}
+                        >
+                            Modifer articles
                         </Link>
                     </div>
                 )
